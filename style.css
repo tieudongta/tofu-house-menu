@@ -1,0 +1,170 @@
+body {
+    background: #111;
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  .menu {
+    background: #333;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 90%;
+    margin: 20px auto;
+    display: none;
+  }
+  .menu.active{
+    display:block;
+  }
+  /* Dot navigation */
+.dots {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 6px;
+    border-radius: 50%;
+    background-color: #bbb;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .dot.active {
+    background-color: #fff;
+  }
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+  }
+  
+  .menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+  
+  .menu-column {
+    flex: 1;
+    max-width: 50%;
+    min-width: 200px;
+  }
+  
+  .menu-column img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  ol {
+    padding-left: 1.2rem;
+  }
+  
+  li {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+  }
+  
+  .desc {
+    display: block;
+    font-size: 0.95rem;
+    color: #ccc;
+    margin-top: 0.2rem;
+  }
+  
+  .or {
+    font-style: italic;
+    color: #f5b400;
+  }
+  
+  .kimchi {
+    color: #ff4f4f;
+    font-weight: bold;
+  }
+  
+  .green {
+    color: #8dc63f;
+  }
+  
+  .orange {
+    color: #f26522;
+  }
+  .menu-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .img-block {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .img-block img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .house-items,
+  .beverages {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+  
+  .house-items li,
+  .beverages li {
+    margin-bottom: 1rem;
+    font-size: 1.5em;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .green {
+    color: #8dc63f;
+    font-weight: bold;
+  }
+  
+  .desc {
+    display: block;
+    color: #ccc;
+    font-size: 0.95rem;
+    margin-top: 0.2rem;
+  }
+   .desc-inline {
+    display: inline-block;
+    color: #ccc;
+    font-size: 0.95rem;
+    margin-top: 0.2rem;
+  }
+  .desc-spec {
+    display: inline-block;
+    color: #ccc;
+    font-size: 0.95rem;
+    margin-top: 0.2rem;
+  }
+  .caption{
+    margin: -5px auto;
+  }
+  .menu-container{
+    max-width: 500px;
+    margin: auto;
+  }
