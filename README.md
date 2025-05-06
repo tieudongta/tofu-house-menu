@@ -10,7 +10,7 @@ A clean, responsive digital menu app for a fictional Korean Tofu House restauran
 - 📱 Mobile-first responsive design
 - 🔍 Category-based filtering
 - 🖼️ Dish images with names, descriptions, and prices
-- 🌓 Optional light/dark mode toggle (if applicable)
+- 🌓 Optional light/dark mode toggle
 
 ---
 
@@ -18,8 +18,6 @@ A clean, responsive digital menu app for a fictional Korean Tofu House restauran
 
 - **HTML5 & CSS3** – Structure and styling
 - **JavaScript** – Interactivity and dynamic content rendering
-- **[Optional] React.js** – Component-based architecture (if used)
-- **[Optional] Tailwind CSS / Bootstrap** – For styling (mention if used)
 - **Git & GitHub** – Version control and project hosting
 
 ---
